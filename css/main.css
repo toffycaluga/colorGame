@@ -1,0 +1,85 @@
+/* created by ToffyCaluga */
+.square {
+  float: left;
+  width: 30%;
+  height: 0;
+  padding-bottom: 30%;
+  background: white;
+  margin: 5px;
+  border: 1;
+  transition-duration: 0.75s;
+  border-style: dashed;
+  border-radius: 50px;
+  align-items: center;
+}
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  background: #232323;
+}
+h1 {
+  text-align: center;
+  color: white;
+  background: gray;
+  margin: 0%;
+}
+#stripe {
+  background: white;
+  height: 30px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+#menssage {
+  color: black;
+  text-align: center;
+}
+.btn {
+  font-size: 14px;
+  padding-bottom: 9px;
+  text-align: center;
+  background: white;
+  border: 0;
+  transition-duration: 0.5s;
+}
+.btn:hover {
+  background: blue;
+  color: white;
+}
+#reset {
+  margin-right: 100px;
+}
+#easy {
+  margin-left: 100px;
+}
+#toffy {
+  text-align: right;
+}
+#image2 {
+  margin: 29px;
+  color: green;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+#image1 {
+  margin: 27px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+#win {
+  position: absolute;
+  top: 80%;
+  left: 40%;
+  transform: translate(-40%, -50%);
+}
+#lose {
+  position: absolute;
+  left: 20%;
+  top: 100%;
+}
