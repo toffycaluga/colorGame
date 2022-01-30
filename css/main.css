@@ -13,18 +13,23 @@
   align-items: center;
 }
 .container {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0;
 }
+/* @media handheld  */
 body {
   background: #232323;
+  width: 98%;
+  font-family: Verdana;
+  font-size: 16px;
 }
 h1 {
   text-align: center;
   color: white;
   background: gray;
   margin: 0%;
+  width: 100%;
 }
 #stripe {
   background: white;
@@ -32,13 +37,14 @@ h1 {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  width: 100%;
 }
 #menssage {
   color: black;
   text-align: center;
 }
 .btn {
-  font-size: 14px;
+  font-size: 100%;
   padding-bottom: 9px;
   text-align: center;
   background: white;
@@ -50,10 +56,10 @@ h1 {
   color: white;
 }
 #reset {
-  margin-right: 100px;
+  margin-right: 10%;
 }
 #easy {
-  margin-left: 100px;
+  margin-left: 10%;
 }
 #toffy {
   text-align: right;
