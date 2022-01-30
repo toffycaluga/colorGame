@@ -16,8 +16,8 @@ let reset=document.querySelector('#reset');
 let easy=document.querySelector("#easy");
 let hard=document.querySelector("#hard");
 let toffy=document.querySelector("#toffy");
-let imgWin="<div id='image2'><img src='img/cartel.png'><span id='win'> <b>You Win!!</b></span></div>" ;
-let imgLose="<div id='image1' ><img src='img/puag.png'><span id='lose'><b>Try Again</b></span></div>";
+let imgWin="<div id='image2'><img src='img/cartel.png' width='80%'><span id='win'> <b>You Win!!</b></span></div>" ;
+let imgLose="<div id='image1' ><img src='img/puag.png' width='80%'><span id='lose'><b>Try Again</b></span></div>";
 
 for(i=0;i<squares.length;i++){
     squares[i].addEventListener('click',function(){
