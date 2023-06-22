@@ -1,5 +1,5 @@
 # colorGame
-[https://toffycaluga.github.io/colorGame/](https://github.com/toffycaluga/colorGame/blob/main/img/project-2.png)
+![https://toffycaluga.github.io/colorGame/](https://github.com/toffycaluga/colorGame/blob/main/img/project-2.png)
 
 Este código fue creado por ToffyCaluga y es un juego simple de adivinanza de colores. El objetivo del juego es emparejar el color mostrado con el cuadro de color correcto.
 
